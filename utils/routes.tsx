@@ -182,6 +182,12 @@ export const categorizedRoutes = [
         path: "/css-to-tailwind",
         packageUrl: "https://github.com/miklosme/css-to-tailwind",
         packageName: "css-to-tailwind"
+      },
+      {
+        label: "to Twind",
+        path: "/css-to-twind",
+        packageUrl: "https://github.com/miklosme/css-to-tailwind",
+        packageName: "css-to-tailwind"
       }
     ]
   },
