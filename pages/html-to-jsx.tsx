@@ -22,7 +22,7 @@ const formFields = [
   }
 ];
 
-export default function() {
+export default function HtmlToJsxComponent() {
   const name = "HTML to JSX";
 
   const [settings, setSettings] = useSettings(name, {

@@ -5,7 +5,7 @@ import PostCssWorker from "@workers/postcss.worker";
 import { useSettings } from "@hooks/useSettings";
 
 let postCssWorker;
-export default function() {
+export default function CssToJs() {
   const name = "CSS to JS";
 
   // TODO

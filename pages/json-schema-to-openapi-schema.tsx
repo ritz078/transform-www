@@ -3,7 +3,7 @@ import * as React from "react";
 import { useCallback } from "react";
 import toOpenApi from "@openapi-contrib/json-schema-to-openapi-schema";
 
-export default function() {
+export default function JsonSchemaToOpenapiSchema() {
   const transformer = useCallback<Transformer>(
     async ({ value }) =>
       JSON.stringify(

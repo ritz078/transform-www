@@ -3,7 +3,7 @@ import * as React from "react";
 import { useCallback } from "react";
 import { convert } from "@assets/vendor/json-to-jsdoc";
 
-export default function() {
+export default function JsonToJsdoc() {
   const transformer = useCallback<Transformer>(async ({ value }) => {
     return convert(value);
   }, []);

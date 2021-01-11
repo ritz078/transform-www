@@ -6,7 +6,7 @@ import { getWorker } from "@utils/workerWrapper";
 import { BabelTransforms } from "@constants/babelTransforms";
 
 let babelWorker;
-export default function() {
+export default function JsonToMobxStateTree() {
   const transformer = useCallback(async ({ value }) => {
     babelWorker = babelWorker || getWorker(BabelWorker);
 

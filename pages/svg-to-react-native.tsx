@@ -21,7 +21,7 @@ if (IN_BROWSER) {
 }
 
 let svgo, _babelWorker, svgr;
-export default function() {
+export default function SvgToReactNative() {
   const name = "SVG to React Native";
   const [value, setValue] = useState("");
   const [url, setUrl] = useState("");

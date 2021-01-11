@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import * as React from "react";
 import { normalize } from "jsonld";
 
-export default function() {
+export default function JsonldToNormalized() {
   const transformer = useCallback(async ({ value }) => {
     return normalize(JSON.parse(value));
   }, []);

@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import * as React from "react";
 import yaml from "yaml";
 
-export default function() {
+export default function YamlToJson() {
   const transformer = useCallback(async ({ value }) => {
     return JSON.stringify(yaml.parse(value));
   }, []);

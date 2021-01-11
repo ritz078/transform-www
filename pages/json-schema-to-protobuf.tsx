@@ -3,7 +3,7 @@ import * as React from "react";
 import { useCallback } from "react";
 import convert from "jsonschema-protobuf";
 
-export default function() {
+export default function JsonSchemaToProtobuf() {
   const transformer = useCallback<Transformer>(
     async ({ value }) => convert(value),
     []

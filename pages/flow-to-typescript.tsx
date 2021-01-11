@@ -4,7 +4,7 @@ import { useCallback } from "react";
 import request from "@utils/request";
 import { Alert } from "evergreen-ui";
 
-export default function() {
+export default function FlowToTypescript() {
   const transformer = useCallback(
     ({ value }) =>
       request("/api/flow-to-typescript", {

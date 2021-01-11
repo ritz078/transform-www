@@ -31,7 +31,7 @@ const defaultSettings = {
   rootName: "RootObject"
 };
 
-export default function() {
+export default function JsonToFlow() {
   const name = "json-to-flow";
 
   const [settings, setSettings] = useSettings(name, defaultSettings);

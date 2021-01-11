@@ -1,5 +1,5 @@
 import React from "react";
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Head, Main, NextScript, Html } from "next/document";
 import { extractStyles } from "evergreen-ui";
 
 interface DocumentProps {
@@ -23,7 +23,7 @@ export default class MyDocument extends Document<DocumentProps> {
     const { css, hydrationScript } = this.props;
 
     return (
-      <html>
+      <Html>
         <Head>
           <meta charSet="utf-8" />
           <meta
@@ -63,7 +63,7 @@ export default class MyDocument extends Document<DocumentProps> {
           {hydrationScript}
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

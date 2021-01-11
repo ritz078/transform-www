@@ -18,7 +18,7 @@ const langMap = {
   [GraphqlTransforms.TO_JAVA_RESOLVERS_SIGNATURE]: "java"
 };
 
-export default function() {
+export default function GraphqlToResolversSignature() {
   const [output, setOutput] = useState(
     GraphqlTransforms.TO_TYPESCRIPT_RESOLVERS_SIGNATURE.toString(10)
   );

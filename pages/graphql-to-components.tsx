@@ -12,7 +12,7 @@ const props = {
   acceptFiles: ".graphql, .gql"
 };
 
-export default function() {
+export default function GraphqlToComponents() {
   const [output, setOutput] = useState(
     GraphqlTransforms.TO_REACT_APOLLO.toString(10)
   );

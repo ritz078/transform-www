@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import * as React from "react";
 import { expand } from "jsonld";
 
-export default function() {
+export default function JsonldToExpanded() {
   const transformer = useCallback(async ({ value }) => {
     const jsonLd = await expand(JSON.parse(value));
 

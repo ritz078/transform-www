@@ -35,7 +35,7 @@ const defaultSettings = {
   fragment: false
 };
 
-export default function() {
+export default function HtmlToPug() {
   const name = "HTML to Pug";
 
   const [settings, setSettings] = useSettings(name, defaultSettings);

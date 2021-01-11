@@ -2,7 +2,7 @@ import ConversionPanel from "@components/ConversionPanel";
 import * as React from "react";
 import { useCallback } from "react";
 
-export default function() {
+export default function JsonToTypescript() {
   const transformer = useCallback(async ({ value }) => {
     const { run } = await import("json_typegen_wasm");
     return run(

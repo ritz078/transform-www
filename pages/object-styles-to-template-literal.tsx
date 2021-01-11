@@ -27,7 +27,7 @@ const formFields = [
 ];
 
 let babelWorker;
-export default function() {
+export default function ObjectStylesToTemplateLiteral() {
   const name = "object-styles-to-template-literal";
   const [settings, setSettings] = useSettings(name, {
     css: true,

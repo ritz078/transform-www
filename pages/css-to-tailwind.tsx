@@ -207,7 +207,7 @@ ${selector} {
   return `/* ${success.length}/${results.length} base rules are converted successfully. */\n/* Gather results from the console with \`copy(window.cssToTailwindResults)\` */\n\n${content}`;
 }
 
-export default function({ defaultSettings }) {
+export default function CssToTailwind({ defaultSettings }) {
   const [settings, setSettings] = useSettings(
     "css-to-tailwind",
     defaultSettings

@@ -30,7 +30,7 @@ const defaultSettings = {
   property_name_format: "camelCase"
 };
 
-export default function() {
+export default function JsonToRustSerde() {
   const name = "json-to-rust-serde";
 
   const [settings, setSettings] = useSettings(name, defaultSettings);

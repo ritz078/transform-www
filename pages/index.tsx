@@ -10,7 +10,7 @@ import SvgrWorker from "@workers/svgr.worker";
 import SvgoWorker from "@workers/svgo.worker";
 
 let prettier, svgo, svgr;
-export default function() {
+export default function Index() {
   const name = "SVG to JSX";
   const [settings, setSettings] = useState(defaultSettings);
   const [optimizedValue, setOptimizedValue] = useState("");

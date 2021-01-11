@@ -2,7 +2,7 @@ import ConversionPanel from "@components/ConversionPanel";
 import { useCallback } from "react";
 import * as React from "react";
 
-export default function() {
+export default function JsObjectToJson() {
   const transformer = useCallback(async ({ value }) => {
     return JSON.stringify(eval("(" + value + ")"), null, 2);
   }, []);

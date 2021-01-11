@@ -11,7 +11,7 @@ const props = {
   acceptFiles: ".graphql, .gql"
 };
 
-export default function() {
+export default function GraphqlToFlow() {
   const transformer = useCallback<Transformer>(
     async ({ value, splitEditorValue }) => {
       graphqlWorker = graphqlWorker || getWorker(GrapqlWorker);

@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import * as React from "react";
 import gs from "generate-schema";
 
-export default function() {
+export default function JsonToMongoose() {
   const transformer = useCallback(async ({ value }) => {
     return JSON.stringify(gs.mongoose(JSON.parse(value)), null, 2);
   }, []);
