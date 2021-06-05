@@ -151,7 +151,8 @@ export const categorizedRoutes = [
         label: "to OpenAPI Schema",
         path: "json-schema-to-openapi-schema",
         packageName: "json-schema-to-openapi-schema",
-        packageUrl: "https://github.com/openapi-contrib/json-schema-to-openapi-schema"
+        packageUrl:
+          "https://github.com/openapi-contrib/json-schema-to-openapi-schema"
       },
       {
         label: "to Protobuf",
@@ -293,6 +294,10 @@ export const categorizedRoutes = [
         path: "/typescript-to-json-schema",
         packageName: "ts-json-schema-generator",
         packageUrl: "https://github.com/vega/ts-json-schema-generator"
+      },
+      {
+        label: "to Mock data",
+        path: "/typescript-to-mock-data"
       }
     ]
   },

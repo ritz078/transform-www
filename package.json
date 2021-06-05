@@ -58,6 +58,7 @@
     "htmltojsx": "^0.3.0",
     "is-capitalized": "^1.0.0",
     "is-svg": "^4.2.1",
+    "json-schema-faker": "^0.5.0-rcv.34",
     "json-schema-to-typescript": "^9.1.0",
     "json-to-go": "gist:0d0b8324131c80eeb7e1df20001be32f",
     "json-ts": "^1.6.4",
@@ -87,11 +88,11 @@
     "text-encoding-utf-8": "^1.0.2",
     "transform-json-types": "^0.7.0",
     "ts-json-schema-generator": "^0.70.2",
-    "typescript": "3.9.7",
     "xml-js": "^1.6.11",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
+    "@types/json-schema-faker": "^0.5.1",
     "@types/lodash": "^4.14.159",
     "@types/node": "^14.0.27",
     "@types/prettier": "^2.0.2",
@@ -107,7 +108,8 @@
     "pretty-quick": "^2.0.1",
     "ui-box": "2.1.0",
     "webpack": "^4.44.1",
-    "worker-loader": "^2.0.0"
+    "worker-loader": "^2.0.0",
+    "typescript": "3.9.7"
   },
   "husky": {
     "hooks": {
